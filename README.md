@@ -79,10 +79,12 @@ This deep-dive analysis was conducted thanks to libraries like **librosa, scipy.
 Technical Implementation
 To ensure the code was organized, reusable, and clean, a modular approach was taken. All data loading, API interaction, and data cleaning logic was refactored from the notebooks into a single spotify_functions.py file. The main analysis notebooks now import this custom module to prepare the data, separating the data preparation steps from the exploratory analysis and visualization.
 
-Links: 
-Google Slides - https://docs.google.com/presentation/d/16YASe1phYjWynylYeruJQQJCUnU0U9M8yrNNw0bl6vw/edit?slide=id.g38ab2b38ad2_0_51#slide=id.g38ab2b38ad2_0_51
-Spotify API - https://developer.spotify.com/documentation/web-api
-Spotify Dataset - https://www.kaggle.com/datasets/melissamonfared/spotify-tracks-attributes-and-popularity
-Kanban board - https://app.asana.com/1/1211526368051919/project/1211526545558584/list/1211526448867750
-https://librosa.org/doc/latest/
-https://docs.scipy.org/doc/scipy/reference/fft.html
+Links, sources and references:
+* Google Slides - https://docs.google.com/presentation/d/16YASe1phYjWynylYeruJQQJCUnU0U9M8yrNNw0bl6vw/edit?slide=id.g38ab2b38ad2_0_51#slide=id.g38ab2b38ad2_0_51
+* Spotify API - https://developer.spotify.com/documentation/web-api
+* Spotify Dataset - https://www.kaggle.com/datasets/melissamonfared/spotify-tracks-attributes-and-popularity
+* Kanban board - https://app.asana.com/1/1211526368051919/project/1211526545558584/list/1211526448867750
+* SciPy Developers. (2024). Signal processing and FFT tools - https://docs.scipy.org/doc/scipy/reference/fft.html
+* NumPy Developers. (2024). NumPy Fast Fourier Transform (numpy.fft) - https://numpy.org/doc/stable/reference/routines.fft.html
+* Librosa Developers. (2024). Audio and music signal analysis in Python - https://librosa.org/doc/latest/
+
